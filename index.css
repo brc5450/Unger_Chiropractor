@@ -1,0 +1,34 @@
+body {
+  background-color: #98d2ea;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+header {
+  margin-top: 60px;
+  height: 80px;
+  background-color: #d4d4d4;
+  color: #000;
+}
+
+.headshot-picture {
+  height: 150px;
+}
+
+.services-techniques-used {
+  list-style: none;
+}
+
+#slimCo {
+  background-color: #f0eeef;
+}
+
+.facialRejuvenationPicture {
+  height: 100px;
+}
