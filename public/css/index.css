@@ -2,6 +2,11 @@ body {
   background-color: #98d2ea;
 }
 
+section {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -30,5 +35,5 @@ header {
 }
 
 .facialRejuvenationPicture {
-  height: 100px;
+  height: 200px;
 }
