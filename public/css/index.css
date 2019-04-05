@@ -1,6 +1,9 @@
 body {
+  overflow-x: hidden;
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #505962;
 }
 
 
@@ -13,7 +16,7 @@ h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-
+/* Slider */
 
 .carousel-item {
   height: 65vh;
@@ -23,6 +26,25 @@ h6 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.carousel-caption h3 {
+  font-size: 1.5rem;
 }
 
 
