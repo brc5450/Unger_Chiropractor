@@ -6,7 +6,6 @@ body {
   color: #505962;
 }
 
-
 h1,
 h2,
 h3,
@@ -28,23 +27,39 @@ h6 {
   background-size: cover;
 }
 
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #9BD2E9;
+  opacity: .4;
+}
+
 .carousel-caption {
   position: absolute;
   top: 35%;
   width: 100%;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .carousel-caption h1 {
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
   letter-spacing: .2rem;
-  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .2rem;
 }
 
 .carousel-caption h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  padding-bottom: .4rem;
 }
 
 
