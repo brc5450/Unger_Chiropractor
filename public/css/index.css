@@ -89,6 +89,24 @@ h6 {
 
 
 .callout {
-  background-color: rgb(243, 243, 243);
-  height: 10vh;
+  background: linear-gradient(to top, rgb(221, 238, 245), rgba(0, 0, 0, 0));
+}
+
+footer {
+  background-color: rgb(22, 24, 41);
+  color: rgb(221, 233, 255);
+  font-size: 12px;
+}
+
+footer a {
+  color: rgb(221, 233, 255);
+  font-weight: 300;
+}
+
+footer .button {
+  color: #505962;
+}
+
+#copyright {
+  font-size: 11px;
 }
