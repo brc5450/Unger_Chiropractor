@@ -1,10 +1,10 @@
-body,
-html {
+body {
   overflow-x: hidden;
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: #505962;
+  padding-top: 80px;
 }
 
 /* Nav Link Color */
@@ -116,12 +116,4 @@ footer .button {
 
 #copyright {
   font-size: 11px;
-}
-
-/* Title Bar */
-
-#title-bar {
-  padding-top: 80px;
-  background-color: aqua;
-  height: 15vh;
 }
