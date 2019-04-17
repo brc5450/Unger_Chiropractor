@@ -3,8 +3,8 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  color: #505962;
-  padding-top: 80px;
+  color: #a3a3a3;
+  line-height: 1.82em;
 }
 
 /* Nav Link Color */
@@ -39,7 +39,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+  color: #13315C;
 }
 
 /* Slider */
@@ -77,7 +86,7 @@ h6 {
 }
 
 .carousel-caption h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 3.8rem;
   font-weight: 700;
   letter-spacing: .2rem;
@@ -88,9 +97,13 @@ h6 {
   font-size: 1.3rem;
 }
 
+.btn {
+  border-radius: 0px;
+}
+
 
 .callout {
-  background: linear-gradient(to top, rgb(221, 238, 245), rgba(0, 0, 0, 0));
+  background-color: #13315C;
 }
 
 footer {
