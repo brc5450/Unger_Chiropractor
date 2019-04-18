@@ -3,8 +3,8 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  color: #a3a3a3;
-  line-height: 1.82em;
+  color: #8b8b8b;
+  line-height: 1.7em;
 }
 
 /* Nav Link Color */
@@ -101,9 +101,20 @@ h2 {
   border-radius: 0px;
 }
 
+#title-bar {
+  /* background-color: #13315C; */
+  background: #347397;
+  background: -webkit-linear-gradient(top left, #347397, #2621C8);
+  background: -moz-linear-gradient(top left, #347397, #2621C8);
+  background: linear-gradient(top left, #347397, #2621C8);
+}
 
 .callout {
   background-color: #13315C;
+}
+
+.sidebar-callout {
+  background-color: rgb(66, 190, 97);
 }
 
 footer {
