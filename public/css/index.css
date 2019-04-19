@@ -17,7 +17,7 @@ nav li a {
 /* navbar */
 
 .navbar {
-  height: 100px;
+  padding: 30px;
 }
 
 .navbar-light .navbar-brand {
@@ -107,11 +107,12 @@ h1 {
   font-size: 3.8rem;
   font-weight: 700;
   letter-spacing: .2rem;
+  color: #ffffff;
   text-shadow: .1rem .1rem .1rem rgb(8, 23, 161);
 }
 
 .carousel-caption h3 {
-  font-size: 1.3rem;
+  color: #ffffff;
 }
 
 .btn {
@@ -204,6 +205,10 @@ The navbar toggle appears at this breakpoint */
 
 .fa-check {
   color: #4DE981;
+}
+
+.fa-asterisk {
+  color: red;
 }
 
 /* Price Card */
