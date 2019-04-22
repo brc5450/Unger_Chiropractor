@@ -11,6 +11,9 @@
   }
 })(document, "script", "weatherwidget-io-js");
 
+// Dropdown
+
+$('.dropdown-toggle').dropdown()
 
 // Scroll To Top
 

@@ -9,7 +9,7 @@ body {
 
 /* Nav Link Color */
 nav li a {
-  font-size: 13px;
+  font-size: 1em;
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
 }
@@ -23,12 +23,14 @@ nav li a {
 .navbar-light .navbar-brand {
   font-weight: 700;
   color: #3E7CF9;
+  position: relative;
+  z-index: 10000;
 }
 
 /* Social Icons */
-ul {
+/* ul {
   overflow: auto;
-}
+} */
 
 ul li {
   list-style-type: none;
