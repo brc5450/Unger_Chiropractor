@@ -15,6 +15,15 @@
 
 $('.dropdown-toggle').dropdown()
 
+// Image Lightbox
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+
+// /End Lightbox
+
 // Scroll To Top
 
 
