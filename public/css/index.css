@@ -27,10 +27,18 @@ nav li a {
   z-index: 10000;
 }
 
-/* Social Icons */
-/* ul {
-  overflow: auto;
-} */
+/* remove border from navbar icon */
+
+.navbar.navbar-default,
+.navbar button.navbar-toggler-right {
+  border: none;
+  outline: none !important;
+}
+
+.fa-ellipsis-v {
+  color: red;
+}
+
 
 ul li {
   list-style-type: none;
@@ -132,7 +140,6 @@ h1 {
 #titlebar-heading {
   padding-top: 80px;
   margin-top: 20px;
-  text-decoration: underline;
 }
 
 .contact-us {
