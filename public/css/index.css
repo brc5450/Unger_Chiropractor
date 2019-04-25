@@ -21,7 +21,7 @@ nav li a {
   padding: 30px;
 }
 
-.nav-link {
+a.nav-link {
   padding: 0;
 }
 
@@ -205,6 +205,8 @@ footer .button {
   color: #505962;
 }
 
+
+
 #copyright {
   font-size: 11px;
 }
@@ -226,7 +228,6 @@ footer .button {
 */ .navbar-header button {
   display: block;
 }
-
 
 .fa-check {
   color: #4DE981;
