@@ -16,8 +16,13 @@ nav li a {
 
 /* navbar */
 
+
 .navbar {
   padding: 30px;
+}
+
+.nav-link {
+  padding: 0;
 }
 
 .navbar-light .navbar-brand {
@@ -35,10 +40,21 @@ nav li a {
   outline: none !important;
 }
 
-.fa-ellipsis-v {
-  color: red;
+.dropdown-item:hover {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
 }
 
+.dropdown-item {
+  color: #fff;
+  border: none;
+}
+
+.dropdown-menu {
+  background-color: #007bff;
+  border: none;
+}
 
 ul li {
   list-style-type: none;
@@ -207,20 +223,6 @@ footer .button {
   }
 }
 
-/* /* Medium devices (tablets, 768px and up) 
-The navbar toggle appears at this breakpoint */
-/* @media (min-width: 1400px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    border-radius: 0;
-  }
-} */
-/* @media (min-width: 768px) {
-  .navbar-toggler-right {
-    display: none;
-  
-} */
 */ .navbar-header button {
   display: block;
 }
