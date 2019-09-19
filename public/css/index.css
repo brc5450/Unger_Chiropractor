@@ -1,7 +1,6 @@
 body {
-
   background-color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 17px;
   color: #424242;
   line-height: 1.7em;
@@ -11,11 +10,10 @@ body {
 nav li a {
   font-size: 1em;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* navbar */
-
 
 .navbar {
   padding: 30px;
@@ -27,7 +25,7 @@ a.nav-link {
 
 .navbar-light .navbar-brand {
   font-weight: 700;
-  color: #3E7CF9;
+  color: #3e7cf9;
   position: relative;
   z-index: 10000;
 }
@@ -77,11 +75,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #13315C;
+  color: #13315c;
 }
-
 
 h1 {
   font-weight: 700;
@@ -115,8 +112,12 @@ h1 {
   left: 0;
   right: 0;
   background: rgb(29, 29, 226);
-  background: linear-gradient(327deg, rgba(29, 29, 226, 1) 0%, rgba(116, 208, 227, 1) 100%);
-  opacity: .7;
+  background: linear-gradient(
+    327deg,
+    rgba(29, 29, 226, 1) 0%,
+    rgba(116, 208, 227, 1) 100%
+  );
+  opacity: 0.7;
   width: 100%;
 }
 
@@ -130,12 +131,12 @@ h1 {
 }
 
 .carousel-caption h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 3.8rem;
   font-weight: 700;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   color: #ffffff;
-  text-shadow: .1rem .1rem .1rem rgb(8, 23, 161);
+  text-shadow: 0.1rem 0.1rem 0.1rem rgb(8, 23, 161);
 }
 
 .carousel-caption h3 {
@@ -144,6 +145,10 @@ h1 {
 
 .btn {
   border-radius: 0px;
+}
+
+.btn-cta-showcase {
+  min-width: 300px;
 }
 
 #title-bar {
@@ -159,17 +164,17 @@ h1 {
 }
 
 .contact-us {
-  color: #13315C;
-  font-family: 'Raleway', sans-serif;
+  color: #13315c;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 
 .callout {
-  background-color: #13315C;
+  background-color: #13315c;
 }
 
 #card-testimonial {
-  background-color: #3E7CF9;
+  background-color: #3e7cf9;
 }
 
 .testimonial {
@@ -205,8 +210,6 @@ footer .button {
   color: #505962;
 }
 
-
-
 #copyright {
   font-size: 11px;
 }
@@ -223,6 +226,14 @@ footer .button {
     overflow: hidden;
     width: 100%;
   }
+
+  .btn-cta-showcase {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
 }
 
 */ .navbar-header button {
@@ -230,7 +241,7 @@ footer .button {
 }
 
 .fa-check {
-  color: #4DE981;
+  color: #4de981;
 }
 
 .fa-asterisk {
@@ -247,7 +258,7 @@ footer .button {
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: linear-gradient(to right, #0062e6, #33aeff);
 }
 
 .pricing .card {
@@ -264,7 +275,7 @@ section.pricing {
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 1.5rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
 }
 
